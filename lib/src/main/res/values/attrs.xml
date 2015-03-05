@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProportionalLayout">
+        <attr name="direction" format="string"/>
+
+        <attr name="ratio" format="float|fraction|string">
+            <enum name="tv" value="-1"/>
+            <enum name="hdtv" value="-2"/>
+
+            <enum name="widescreen_flat_print" value="-3"/>
+            <enum name="widescreen_anamorphic_print" value="-4"/>
+
+            <enum name="academy" value="-5"/>
+            <enum name="imax" value="-6"/>
+            <enum name="univisium" value="-7"/>
+
+            <enum name="golden" value="-8"/>
+            <enum name="silver" value="-9"/>
+
+            <enum name="paper_iso" value="-10"/>
+            <enum name="paper_letter" value="-11"/>
+        </attr>
+    </declare-styleable>
+</resources>
